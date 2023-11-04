@@ -1,0 +1,29 @@
+.nav {
+  background-color: black;
+  justify-content: space-around;
+  text-align: center;
+  font-size: larger;
+  font-family: Roboto;
+  display: flex;
+}
+.mylinks {
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+  color: #ffffff;
+}
+p {
+    font-family: open sans;
+    color: black;
+    text-align: left;
+
+}
+h1,h2 {
+    text-align: center;
+    color: rgba(0, 81, 255, 0.559)
+}
+body {
+    background-color: whitesmoke
+}
+
+

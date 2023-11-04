@@ -1,96 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
 
-<head>
-    <title>
-        My Portfolio
-    </title>
-</head>
-
-<body>
-    <nav>
-        <ul>
-            <li> <a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+  <body>
+    <nav style="position: fixed; width: 100%">
+      <div class="nav">
+        <a class="mylinks" href="#home">Home</a>
+        <a class="mylinks" href="#about">About</a>
+        <a class="mylinks" href="#work">Work</a>
+        <a class="mylinks" href="#resume">Resume</a>
+        <a class="mylinks" href="#contact">Contact</a>
+      </div>
     </nav>
+
     <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Asiyah Abdullahi, and I'm delighted to welcome you to my front-end development portfolio.
-            Here, you'll discover my passion for web design and development in action.
-            I've poured my heart and soul into these projects,
-            each one a testament to my dedication to creating captivating and functional web experiences.</p>
+        <br>
+      <h1>Welcome to My Portfolio</h1>
+      <p >
+        Hi, I'm Asiyah Abdullahi, and I'm delighted to welcome you to my
+        front-end development portfolio. Here, you'll discover my passion for
+        web design and development in action. I've poured my heart and soul into
+        these projects, each one a testament to my dedication to creating
+        captivating and functional web experiences.
+      </p>
     </section>
+
     <section id="about">
-        <h2>About</h2>
-        <p>My journey in the world of web development began with a strong desire to blend creativity with
-        technology. I believe that the front-end of a website is where artistry meets usability, and I'm committed to
-        creating captivating user interfaces that not only look great but also provide seamless navigation and an
-        enjoyable user experience.
-        Over the years, I've had the privilege of working on a wide range of projects,
-        from e-commerce websites to interactive web applications.
-        My skills in HTML, CSS, and JavaScript are the foundation upon which I craft visually appealing and responsive
-        designs.
-        I'm always eager to stay up-to-date with the latest trends and technologies in the field to ensure that the
-        websites I build are cutting-edge and accessible.</p>
+        <br>
+      <h2>About</h2>
+      <p>
+        My journey in the world of web development began with a strong desire to
+        blend creativity with technology. I believe that the front-end of a
+        website is where artistry meets usability, and I'm committed to creating
+        captivating user interfaces that not only look great but also provide
+        seamless navigation and an enjoyable user experience. Over the years,
+        I've had the privilege of working on a wide range of projects, from
+        e-commerce websites to interactive web applications. My skills in HTML,
+        CSS, and JavaScript are the foundation upon which I craft visually
+        appealing and responsive designs. I'm always eager to stay up-to-date
+        with the latest trends and technologies in the field to ensure that the
+        websites I build are cutting-edge and accessible.
+      </p>
     </section>
 
     <section id="work">
-        <h2>My Work</h2>
-        <p>Check out some of the projects We worked on:</p>
-        <ul>
-            <li><a href="work/project1.html">Project 1</a></li>
-            <li><a href="work/project2.html">Project 2</a></li>
-        </ul>
+        <br>
+      <h2>My Work</h2>
+      <p>Check out some of the projects we worked on:</p>
+      <ul>
+        <li><a href="work/project1.html">Project 1</a></li>
+        <li><a href="work/project2.html">Project 2</a></li>
+      </ul>
     </section>
 
     <section id="resume">
-        <h2>My Resume</h2>
-        <p>
-            Click here to check <a style="text-decoration: none;" target="_blank" href="resume.html">here</a> to check
-            my resume
-            <br>
-            Click <a style="text-decoration: none;" target="_blank"
-                href="https://www.linkedin.com/in/abdullahi-asiyah-ab64a6262/">here</a> to view my Linkedin profile
+        <br>
+      <h2>My Resume</h2>
+      <p>
+        Click here to check
+        <a style="text-decoration: none" target="_blank" href="resume.html"
+          >here</a
+        >
+        to check my resume
+        <br />
+        Click
+        <a
+          style="text-decoration: none"
+          target="_blank"
+          href="https://www.linkedin.com/in/abdullahi-asiyah-ab64a6262/"
+          >here</a
+        >
+        to view my Linkedin profile
+      </p>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Use the form below to get in touch:</p>
-        <form action="contact.php" method="post">
-            <div style="margin: 4px;">
-                <label for="name">Name:</label>
-                <input style="margin-left: 18px;" type="text" id="name" name="name" required>
-            </div>
-            <br>
-            <div style="margin: 4px;">
-                <label for="email">Email:</label>
-                <input style="margin-left: 18px;" type="email" id="email" name="email" required>
-            </div>
-            <br>
-            <div style="margin: 4x;">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" cols="20" required></textarea>
-                <div>
-                    <br>
-                    <div style="margin-left: 100px;">
-                        <button type="submit">Submit</button>
-                    </div>
-        </form>
+        <br>
+      <h2>Contact Me</h2>
+      <p>Use the form below to get in touch:</p>
+      <form action="contact.php" method="post">
+        <div style="margin: 4px">
+          <label for="name">Name:</label>
+          <input
+            style="margin-left: 18px"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <br />
+        <div style="margin: 4px">
+          <label for="email">Email:</label>
+          <input
+            style="margin-left: 18px"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <br />
+        <div style="margin: 4px">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" cols="20" required></textarea>
+        </div>
+
+        <br />
+        <div style="margin-left: 100px">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
     </section>
 
     <section>
-        <p> Kindly click on this <a style="text-decoration: none;" target="_blank" href="https://www.w3schools.com/html/mov_bbb.mp4">link</a> to watch my video</p>
+      <p>
+        Kindly click on this
+        <a
+          style="text-decoration: none"
+          target="_blank"
+          href="https://www.w3schools.com/html/mov_bbb.mp4"
+          >link</a
+        >
+        to watch my video
+      </p>
     </section>
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+      <p>&copy; 2023 My Portfolio</p>
     </footer>
-
-
-
-</body>
-
+  </body>
 </html>
